@@ -1,0 +1,543 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url('https://img.freepik.com/free-photo/blurred-abstract-background-interior-view-looking-out-toward-empty-office-lobby-entrance-doors-glass-curtain-wall-with-frame_1339-6363.jpg?size=626&ext=jpg&ga=GA1.1.1260135174.1707110597&semt=ais');
+    background-size: cover;
+}
+main .container h1{
+
+  text-align: center;
+  font-size: 4rem;
+  color: rgb(16, 132, 62);
+  padding-top: 30px;
+  text-decoration: underline rgb(217, 81, 7);
+    
+}
+.container .img{
+  
+    width:90%;
+    height: 50vh;
+    margin-top: 80px;
+    margin-left: 70px;
+    padding: 50px;
+    background-image: url("https://www.shutterstock.com/image-photo/doctor-hospital-background-copy-space-260nw-1008604453.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+ 
+
+}
+.container .img p{
+    font-size: 1.4rem;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.container .data{
+   
+    width:80%;
+    margin-left:140px ;
+    margin-top: 50px;
+    padding-top: -40px;
+    padding-bottom: 40px;
+   
+}
+.container .data h3{
+    text-align: center;
+    padding: 20px;
+    font-size: 3.5rem;
+    padding-bottom: 50px;
+    color: rgb(16, 132, 62);
+    text-decoration: underline rgb(217, 81, 7) ;
+
+}
+.container .data .dt{
+    background-color: rgb(16, 132, 62);
+    height: 250px;
+    width:250px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 2.3rem;
+    color: white;
+    box-shadow: 0 0 30px black;
+    transition-duration: 0.5s;
+ 
+}
+.container .data .dt2{
+    background-color:  rgb(16, 132, 62);
+    height: 250px;
+    width:250px;
+    margin-left: 40%;
+    margin-top: -250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 2.3rem;
+    color: white;
+    box-shadow: 0 0 30px black;
+    transition-duration: 0.5s;
+}
+.container .data .dt3{
+    background-color:  rgb(16, 132, 62);
+    height: 250px;
+    width:250px; 
+    float: right;
+    margin-top: -250px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 2.3rem;
+    color: white;
+    box-shadow: 0 0 30px black;
+    transition-duration: 0.5s;
+}
+.container .data #dt:hover{
+    transform: scale(1.1,1.1);
+
+}
+.container .specialists{
+    padding-top: 60px;
+ 
+
+}
+.container .specialists h2{
+   text-align: center;
+   font-size: 4rem;
+   color:  rgb(16, 132, 62);
+   text-decoration: underline rgb(217, 81, 7) ;
+   padding-bottom: 50px;
+
+}
+.container .specialists .cardi{
+    
+    padding:30px;
+}
+.container .specialists .cardi img:hover{
+    transform: scale(1.1,1.1);
+
+}
+.container .specialists .cardi img{
+    height: 350px;
+    width: 500px;
+    margin-left: 40px;
+    border-radius: 20px;
+    transition-duration: 1s;
+   
+}
+.container .specialists .cardi p{
+
+    height: 300px;
+    width: 780px;
+    float: right;
+    margin-right: 40px;
+    text-align: left;
+    padding: 10px;
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
+    font-style: italic;
+    transition-duration: 1s;
+    
+}
+.container .specialists .cardi p:hover{
+    transform: scale(1.1,1.1);
+}
+.container .specialists .neuro{
+   
+    padding: 30px;
+    height: 58vh;
+}
+.container .specialists .neuro img{
+    height: 350px;
+    width: 400px;
+    float: right;
+    margin-right: 40px;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+.container .specialists .neuro img:hover{
+    transform: scale(1.1,1.1);
+}
+.container .specialists .neuro p{
+   
+    height: 200px;
+    width: 880px;
+    margin-left: 40px;
+    text-align: right;
+    margin-right: 20px;
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
+    padding: 10px;
+    font-style: italic;
+    transition-duration: 1s;
+
+}
+.container .specialists .neuro p:hover{
+    transform: scale(1.1,1.1);
+}
+.container .specialists .derm{
+  
+    padding: 30px;
+}
+.container .specialists .derm img{
+    height: 350px;
+    width: 500px;
+    margin-left: 40px;
+    border-radius: 10px;
+    transition-duration: 1s;
+   
+}
+.container .specialists .derm img:hover{
+    transform: scale(1.1,1.1);
+}
+.container .specialists .derm p{
+   
+    height: 200px;
+    width: 780px;
+    float: right;
+    margin-right: 40px;
+    text-align: left;
+    padding: 10px;
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
+    font-style: italic;
+    transition-duration: 1s;
+    
+}
+.container .specialists .derm p:hover{
+    transform: scale(1.1,1.1);
+}
+.container .specialists .gyno{
+  
+    padding: 30px;
+    height: 70vh;
+}
+.container .specialists .gyno img{
+    height: 350px;
+    width: 500px;
+    float: right;
+    margin-right: 40px;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+.container .specialists .gyno img:hover{
+    transform: scale(1.1,1.1);
+}
+.container .specialists .gyno p{
+
+    height: 200px;
+    width: 780px;
+    margin-left: 40px;
+    text-align: right;
+    padding: 10px;
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
+    font-style: italic;
+    transition-duration: 1s;
+}
+.container .specialists .gyno p:hover{
+    transform: scale(1.1,1.1);
+}
+.container .reviews{
+    margin-left: 200px;
+    margin-bottom: 70px;
+  }
+
+.container .row .col{
+    background-color:rgb(16, 132, 62);
+    width: 300px;
+    margin-left: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+.container .row .col:hover{
+    transform: scale(1.1,1.1);
+}
+.container .row .col img{
+    width: 180px;
+    height: 175px;
+    margin-left: 56px;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px whitesmoke;
+    
+}
+.container .row .col .name{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+   
+}
+.container .row .col .stars{
+    
+    text-align: center;
+    padding: 10px;
+    color:rgb(255, 251, 0)
+}
+.container .row p{
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.container .row1 .col1 .img1{
+    width: 180px;
+    height: 175px;
+    margin-left: 60px;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px whitesmoke;
+    
+}
+.container .row1 .col1 .name{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+.container .row1 .col1 .stars1{
+    
+    text-align: center;
+    padding: 10px;
+    color: yellow;
+}
+.container .row1 p{
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.container .row2 .col2 .img2{
+    width: 180px;
+    height: 175px;
+    margin-left: 60px;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px whitesmoke;
+    
+}
+.container .row2 .col2 .name{
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+.container .row2 .col2 .stars2{
+    
+    text-align: center;
+    padding: 10px;
+    color: yellow;
+}
+.container .row2 p{
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+
+
+.container .row1 .col1{
+    background-color:rgb(16, 132, 62);
+    width: 300px;
+    margin-left: 360px;
+    margin-top: -450px;
+    padding-top: 20px;
+    border-radius: 10px;
+    transition-duration: 1s;
+    
+}
+.container .row1 .col1:hover{
+    transform: scale(1.1,1.1);
+
+}
+.container .row1 .col1 img{
+    width: 200px;
+}
+.container .row2 .col2{
+    background-color:rgb(16, 132, 62);
+    width: 300px;
+    height: 450px;
+    margin-left: 700px;
+    margin-top: -450px;
+    padding-top: 20px;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+.container .row2 .col2:hover{
+    transform: scale(1.1,1.1);
+}
+.container .row2 .col2 img{
+    width: 200px;
+}
+.container .reviews h6{
+    font-size: 4rem;
+    text-align: center;
+    margin-left: -190px;
+    margin-bottom: 60px;
+    color:rgb(16, 132, 62) ;
+    text-decoration: underline rgb(217, 81, 7);
+}
+
+header{
+    background-color:rgb(16, 132, 62);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    height: 100px;
+    
+ 
+}
+header img{
+    height: 95px;
+    width: 100px;
+    margin-left: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+header .nav{
+    margin-left: 400px
+}
+header .nav a{
+    color: white;
+    text-decoration: none;
+    padding: 50px;
+    font-size: 1.5rem;
+}
+header .nav a:hover{
+    
+    color:rgb(217, 81, 7);
+    text-decoration: underline white;
+
+}
+.nav .active{
+    color:rgb(217, 81, 7) ;
+    text-decoration: underline white;
+}
+
+
+header button{
+    width: 70px;
+    height: 40px;
+    margin-right: 70px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+
+}
+header button:hover{
+    background-color:rgb(217, 81, 7) ;
+    color: white;
+}
+
+
+footer{
+    height:230px;
+    width: 100%;
+    background-color:rgb(16, 132, 62) ;
+
+   
+    
+}
+.foot{
+    margin-left: 110px;
+}
+.contact{
+
+    width: 500px;
+    height: 230px;
+    padding-left: 30px;
+    margin-left:-40px;
+    margin-top: -20px;
+    padding-top: 10px;
+    color: white;
+}
+.contact h4{
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    text-decoration: underline white;
+}
+.contact p{
+    font-size: 1.5rem;
+    padding: 4px;
+}
+.quick{
+    margin-left: 650px;
+    margin-top: -210px;
+    font-size: 1.3rem;;
+    
+   
+}
+.quick a{
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+    line-height: 30px;
+}
+.quick a:hover{
+    color: rgb(217, 81, 7);
+    text-decoration: underline white;
+}
+.quick h4{
+    padding-bottom:10px;
+    color: white;
+    text-decoration: underline white;
+    font-size: 1.5rem;
+}
+.follow{
+   float: right;
+   margin-right: 130px;
+   margin-top: -210px;
+   
+   
+}
+.follow h4{
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: underline white;
+
+}
+.follow a{
+    padding-right:10px;
+    font-size: 1.6rem;
+    color: white;
+ 
+}
+.follow a i{
+    transition-duration: 0.5s ;
+    padding-top: 7px;
+}
+
+.follow a i:hover{
+    transform: scale(1.1,1.1);
+    color:rgb(217, 81, 7);
+
+}
+.copyright{
+    background-color: rgb(217, 81, 7);
+    margin-top: 50px;
+    height: 30px;
+    text-align: center;
+}
+.copyright p{
+    padding-top:5px;
+    color: white;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="/javascript/contact.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<link rel="icon" href="/img/pngwing.com.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="/img/pngwing.com.png"alt="">
+        </div>
+        <div class="nav">
+
+            <a href="index.html">Home</a>
+            <a href="services.html">services</a>
+            <a href="aboutus.html">About</a>
+            <a class="active" href="contact.html">contact us</a>
+
+        </div>
+        <div>
+            <button onclick="location.href='login.html'">Login</button>
+        </div>
+    </header>
+    <div class="container">
+        <div class="content">
+
+            <h1> contact us</h1>
+
+            <form onsubmit="sendEmail(); reset();return false">
+                <div class="name">
+
+                    <input type="text" placeholder="Enter your name" class="" id="username">
+                </div>
+
+                <div class="email">
+
+                    <input type="email" placeholder="Enter your email" class="" id="email">
+                </div>
+                <div class="number">
+
+                    <input type="number" placeholder="Enter your phone number" class="" id="phone">
+                </div>
+                <div class="text">
+                    <textarea rows="7" cols="60" placeholder="your opinion" class="" id="message"></textarea>
+                </div>
+                <div class="btn">
+                    <button type="submit">submit</button>
+                </div>
+            </form>
+
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="foot">
+           <div class="contact">
+               <h4>contact us</h4>
+               <p>Email:</p><span>alavihospitals@gmail.com</span><br>
+               <p>phone:</p><span>040-12233445</span><br>
+               <p>Adress:</p><span>H-no:3-4,srinivas nagar,Quthbullapur, pincode:506315</span>
+               </P>
+           </div>
+           <div class="follow">
+               <h4>Follow us</h4>
+               <a href="https://www.facebook.com/AlaviHospitals.Official/"><i class="fa-brands fa-facebook"></i></a>
+               <a href=""><i class="fa-brands fa-twitter"></i></a>
+               <a href="#"><i class="fa-brands fa-instagram"></i></a>
+               <a href="https://ir.linkedin.com/in/alavi-hospital-aa11391b0?original_referer=https%3A%2F%2Fwww.google.com%2F"><i class="fa-brands fa-linkedin"></i></a>
+           </div>
+           </div>
+           <div class="quick">
+               <h4>Quick Links</h4>
+               <a href="index.html">Home</a><br>
+               <a href="aboutus.html">about</a><br>
+               <a href="services.html">service</a><br>
+               <a href="contact.html">contact</a>
+           </div>
+           <div class="copyright">
+               <p>copyright&copy;2024 reserved by Alavi hospitals</p>
+           </div> 
+        </divr>
+       </footer>
+</body>
+
+</html>

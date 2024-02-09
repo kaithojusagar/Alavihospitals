@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url('https://img.freepik.com/free-photo/blurred-abstract-background-interior-view-looking-out-toward-empty-office-lobby-entrance-doors-glass-curtain-wall-with-frame_1339-6363.jpg?size=626&ext=jpg&ga=GA1.1.1260135174.1707110597&semt=ais');
+    background-size: cover;
+}
+
+
+header{
+    background-color:rgb(16, 132, 62);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    height: 100px;
+    
+ 
+}
+header img{
+    height: 45px;
+    width: 90px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border: 2px solid rgb(16, 132, 62);
+}
+header .nav{
+    margin-left: 400px
+}
+header .nav a{
+    color: white;
+    text-decoration: none;
+    padding: 50px;
+    font-size: 1.5rem;
+}
+header .nav a:hover{
+    
+    color:rgb(217, 81, 7);
+    
+
+}
+
+header button{
+    width: 70px;
+    height: 40px;
+    margin-right: 70px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+
+}
+
+
+.content h1{
+   
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(16, 132, 62);
+    margin-top: -140px;
+    font-size: 6rem;
+    padding-left: 320px;
+    text-decoration: underline rgb(217, 81, 7);
+
+
+
+
+}
+.content img{
+    width:30%;
+    height:40%;
+    border: 2px solid rgb(16, 132, 62);
+    border-radius: 40px;
+    margin-top: 50px;
+    margin-left: 130px;
+    transition-duration: 1s;
+
+}
+.content img:hover{
+    transform: scale(1.1,1.1);
+}
+.content .lorem{
+    padding: 70px;
+    font-family:serif;
+    font-size: 1.4rem;
+    background-color: rgb(16, 132, 62);
+    border-radius: 20px;
+    width:70%;
+    height:50%;
+    margin-left: 200px;
+    letter-spacing: 1px;
+    transition-duration: 1s;
+    
+}
+.content .lorem:hover{
+   transform: scale(1.1,1.1)
+}
+footer{
+    height:230px;
+    width: 100%;
+    background-color:rgb(16, 132, 62) ;
+    margin-top: 30px;
+    
+}
+footer .container{
+    font-size: 1.4rem;
+   padding-left: 50px;
+   padding-top: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 40px;
+
+}
+footer a{
+  
+    padding-right: 30px;
+   
+     text-decoration: none;
+     color: white;
+
+
+    
+    
+}
+footer a:hover{
+    color:rgb(217, 81, 7);
+}
+footer .icons{
+ 
+   display: flex;
+   justify-content: center;
+
+}
+footer i{
+  
+    padding-top: 50px;
+     color: white;
+    padding-right: 20px;
+    font-size: 1.3rem;
+   margin-left: 30px;
+   margin-top: 15px;
+   transition-duration: 1s;
+    
+}
+footer i:hover{
+    color:rgb(217, 81, 7);
+    transform: scale(1.3,1.3);
+}
+footer .copyright{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 1rem;
+    color: white;
+}
+@media screen and (max-width:1414px){
+    a{
+      float: left;
+    }
+}
+@media screen and (max-width:1402px){
+.nav a{
+        width: 80px;
+        display: flex;
+        
+        align-items: center;
+        justify-content: center;
+ }
+}
+
+

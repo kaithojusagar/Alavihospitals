@@ -1,0 +1,565 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color:rgb(16, 132, 62);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    height: 100px;
+    
+ 
+}
+header img{
+    height: 95px;
+    width: 100px;
+    margin-left: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+header .nav{
+    margin-left: 400px
+}
+header .nav a{
+    color: white;
+    text-decoration: none;
+    padding: 50px;
+    font-size: 1.5rem;
+}
+header .nav a:hover{
+    
+    color:rgb(217, 81, 7);
+    text-decoration: underline white;
+    
+
+}
+.nav .active{
+    color:rgb(217, 81, 7) ;
+    text-decoration: underline white;
+}
+
+
+header button{
+    width: 70px;
+    height: 40px;
+    margin-right: 70px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+
+}
+header button:hover{
+    background-color:rgb(217, 81, 7) ;
+    color: white;
+}
+main::before{
+    content: "";
+    position:absolute;
+    left: 0;
+    width: 100%;
+    height:100vh;
+    animation: change 10s infinite ease-in-out;
+    opacity: 0.6;
+    z-index: -1;
+    background-size: cover;
+}
+ main .content{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h2{
+    text-align: center;
+    font-size: 2.7rem;
+   
+    width: 1200px;
+    margin-left: 220px;
+    font-family:  Arial, sans-serif;
+    color: rgb(217, 81, 7);
+    
+}
+h2 span{
+    font-size: 4rem;
+    color: rgb(16, 132, 62);
+    text-decoration: underline rgb(217, 81, 7);
+}
+.btn{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 100px;
+    margin-left: 135px;
+    
+}
+.btn a{
+    text-decoration: none;
+    background-color:rgb(217, 81, 7);
+    padding: 10px;
+    border-radius: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 1.3rem;
+    color: white;
+    
+
+}
+.btn .btn1{
+    margin-right: 50px;
+ 
+}
+
+.btn a:hover{
+  background-color:rgb(16, 132, 62) ;
+}
+.logo img{
+    width: 450px;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+.text p{
+    text-align: center;
+    width: 80%;
+   height: 250px;
+   background-color: rgba(250, 248, 246, 0.235);
+   margin-left: 140px;
+   font-size: 1.5rem;
+   padding: 30px;
+   font-family: 'Times New Roman', Times, serif;
+   border-radius: 25px;
+   
+   letter-spacing: 2px;
+   line-height: 35px;
+}
+   
+
+footer{
+    height:230px;
+    width: 100%;
+    background-color:rgb(16, 132, 62) ;
+
+   
+    
+}
+.foot{
+    margin-left: 110px;
+}
+.contact{
+
+    width: 500px;
+    height: 230px;
+    padding-left: 30px;
+    margin-left:-40px;
+    margin-top: -20px;
+    padding-top: 10px;
+    color: white;
+}
+.contact h4{
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    text-decoration: underline white;
+}
+.contact p{
+    font-size: 1.5rem;
+    padding: 4px;
+}
+.quick{
+    margin-left: 650px;
+    margin-top: -210px;
+    font-size: 1.3rem;;
+    
+   
+}
+.quick a{
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+    line-height: 30px;
+}
+.quick a:hover{
+    color: rgb(217, 81, 7);
+    text-decoration: underline white;
+}
+.quick h4{
+    padding-bottom:10px;
+    color: white;
+    text-decoration: underline white;
+    font-size: 1.5rem;
+}
+.follow{
+   float: right;
+   margin-right: 130px;
+   margin-top: -210px;
+   
+   
+}
+.follow h4{
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: underline white;
+
+}
+.follow a{
+    padding-right:10px;
+    font-size: 1.6rem;
+    color: white;
+ 
+}
+.follow a i{
+    transition-duration: 0.5s ;
+    padding-top: 7px;
+}
+
+.follow a i:hover{
+    transform: scale(1.1,1.1);
+    color:rgb(217, 81, 7);
+
+}
+.copyright{
+    background-color: rgb(217, 81, 7);
+    margin-top: 50px;
+    height: 30px;
+    text-align: center;
+}
+.copyright p{
+    padding-top:5px;
+    color: white;
+}
+
+ 
+ 
+@keyframes change{
+    0%{
+        background-image: url("https://cdn.pixabay.com/photo/2016/11/14/03/05/surgery-1822458_1280.jpg");
+        
+    }
+    20%{
+        background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsX29mZmljZV8yNV9zaW1wbGVfM2RfaWxsdXN0cmF0aW9uX29mX2FfcmVjb3Zlcnlfcm9vbV93aV80ZjhkNDIwNC02N2I4LTQwMDQtYTBlNy05YjljMjIyMzE2ZGVfMS5qcGc.jpg");
+    }
+    40%{
+      background-image: url("https://online-learning-college.com/wp-content/uploads/2023/01/Qualifications-to-Become-a-Doctor--scaled.jpg");
+    }
+    60%{
+        background-image: url("https://plus.unsplash.com/premium_photo-1673953509975-576678fa6710?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    }
+    80%{
+        background-image: url("https://plus.unsplash.com/premium_photo-1661274078177-3975521e1101?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    }
+    100%{
+        background-image: url("https://previews.123rf.com/images/giggsy25/giggsy251711/giggsy25171100134/89624948-smart-doctor-with-a-stethoscope-on-blurred-hospital-background-and-medical-icon-in-hexagonal-shaped.jpg");
+    }
+ 
+}
+
+
+/*about section*/
+section{
+    width:100%;
+    height: 100vh;
+    font-family:'Roboto',sans-serif;
+    margin-top: 110px;
+  
+}
+.heading h1{
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 40px;
+    color: rgb(16, 132, 62);
+    text-decoration: underline rgb(217, 81, 7);
+    margin-bottom: 40px;
+}
+.heading p{
+    text-align: center;
+    padding: 40px;
+    letter-spacing: 2px;
+    
+  
+}
+.img img{
+    padding-left: 30px;
+}
+.about{
+    float: right;
+    width: 750px;
+    margin-top: -410px;
+    padding-right: 30px;
+    letter-spacing: 2px;
+    line-height: 19px;
+
+}
+.btn2{
+    padding-left:690px ;
+    margin-top: -40px;
+}
+.btn2 button{
+    background-color: rgb(16, 132, 62);
+    color: white;
+    height: 40px;
+    width: 80px;
+    border-radius:6px;
+    text-decoration: none;
+
+    border: none;
+}
+.btn2 button:hover{
+    background-color:rgb(217, 81, 7) ;
+    color: white;
+} 
+.icons{
+    float: right;
+    margin-right: 300px;
+}
+.icons a{
+    font-size: 2rem;
+    color: green;
+    padding: 10px;
+}
+.icons i{
+    transition-duration: 1s;
+}
+.icons i:hover{
+    color: red;
+    transform: scale(1.1,1.1);
+    
+}
+#sai{
+    visibility: hidden;
+   
+}
+
+
+/* services section*/
+.section{
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 270px;
+    padding-left: 20px;
+    margin-top: -50px;
+  
+;
+}
+.services{
+   text-align: center;
+    font-size: 3rem;
+   padding: 50px;
+   color: rgb(16, 132, 62);
+   text-decoration: underline rgb(217, 81, 7);
+   
+}
+.boxes{
+    margin-left: 70px;
+    cursor: pointer;
+    
+    
+}
+.boxone,.boxtwo,.boxthree,.boxfour,.boxfive,.boxsix{
+    height:340px;
+    width:350px;
+    background-color:rgb(16, 132, 62);
+    transition-duration: 0.5s;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+
+   
+    
+}
+.boxone,.boxtwo{
+    margin-left: 20px;
+    margin-top: 40px;
+    text-align: center;
+    padding: 25px;
+}
+.boxthree, .boxfour{
+    margin-left: 450px;
+    margin-top: 40px;
+    text-align: center;
+    padding: 25px;
+   
+}
+.boxthree{
+    margin-top: -720px;
+}
+.boxfive, .boxsix{
+    margin-left: 880px;
+    margin-top: 40px;
+    text-align: center;
+    padding: 25px;
+}
+.boxfive{
+    margin-top: -720px;
+}
+.boxes i{
+    width:50px;
+    height: 50px;
+    background-color: rgb(241, 232, 232);
+    font-size: 2rem;
+    padding: 8px;
+    color:rgb(16, 132, 62) ;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+}
+.boxes h3{
+    padding: 20px;
+    font-size: 2rem;
+    color: white;
+}
+.boxes p{
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    background-position: 0 2.5%;
+    color: white;
+
+}
+.boxes i:hover{
+    transform: scale(1.1,1.1);
+    color:rgb(217, 81, 7);
+
+}
+.boxone:hover{
+    background-color: rgb(217, 81, 7);
+    transform: scale(1.1,1.1);
+}
+.boxtwo:hover{
+    background-color: rgb(217, 81, 7);
+    transform: scale(1.1,1.1);
+}
+.boxthree:hover{
+    background-color: rgb(217, 81, 7);
+    transform: scale(1.1,1.1);
+}
+.boxfour:hover{
+    background-color: rgb(217, 81, 7);
+    transform: scale(1.1,1.1);
+}
+.boxfive:hover{
+    background-color:rgb(217, 81, 7);
+    transform: scale(1.1,1.1);
+}
+.boxsix:hover{
+    background-color: rgb(217, 81, 7);
+    transform: scale(1.1,1.1);
+}
+.more{
+    text-align: center;
+    padding-top: 50px;
+}
+.more p{
+    font-size: 1.6rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.more a{
+    background-color: rgba(230, 76, 9, 0.795);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.more a:hover{
+   
+   background-color:rgba(0, 0, 0, 0.355)
+    
+}
+
+
+
+
+/*client reviews*/
+section h2{
+    font-size: 4rem;
+    padding-bottom: 40px;
+    color: rgb(16, 132, 62);
+    text-decoration: underline rgb(217, 81, 7);
+    text-align: center;
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+.box{
+    width:100%;
+   
+    height: 70vh;
+    padding: 50px;
+
+}
+.box img{
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 20px;
+}
+.box1,.box2,.box3,.box4{
+    height: 220px;
+    width: 560px;
+    box-shadow: 0 0 10px black;
+    transition-duration: 0.6s;
+}
+.box1,.box2{
+    background-color: rgba(24, 145, 74, 0.393);
+    margin-left: 70px;
+    border-radius: 20px;
+
+}
+.box3,.box4{
+    background-color: rgba(24, 145, 74, 0.393);
+    margin-left: 700px;
+    margin-top: -490px;
+    border-radius: 20px;
+}
+.box4{
+   margin-top:50px;
+}
+.box2{
+    margin-top:50px;
+}
+.box h6{
+    margin-left: 120px;
+    margin-top: -80px;
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box span{
+    font-size:1rem ;
+    opacity: 60%;
+}
+.box p{
+    padding-top: 20px;
+    padding: 20px;
+    font-size: 1rem;
+    letter-spacing: 1.2px;
+    line-height: 1.2;
+    opacity: 70%;
+}
+.rate{
+    margin-left: 20px;
+    margin-top:-15px ;
+    color: rgb(227, 239, 7);
+}
+
+.box1:hover{
+    transform: scale(1.1,1.2);
+    background-color: rgba(198, 91, 91, 0.407);
+}
+.box2:hover{
+    transform: scale(1.1,1.2);
+    background-color: rgba(198, 91, 91, 0.407);
+}
+.box3:hover{
+    transform: scale(1.1,1.2);
+    background-color: rgba(198, 91, 91, 0.407);
+}
+.box4:hover{
+    transform: scale(1.1,1.2);
+    background-color: rgba(198, 91, 91, 0.407);
+}
